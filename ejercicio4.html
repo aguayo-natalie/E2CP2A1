@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio 4</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<style>
+		body {margin: 0; font-family: 'Roboto', sans-serif;}
+
+		/*Foto*/
+		.container {margin: 0 auto; max-width: 900px}
+		
+		.header {
+			background-image: url("images/bg.jpeg"); 
+			height: 500px; position: relative;}
+
+		.logo {float: left; 
+			width: 200px; 
+			margin-top: 30px; 
+			 
+			position: absolute;}
+
+		.navbar {float: right; margin-top: 30px; }
+		
+		.navbar li {display: inline;
+        list-style: none;
+        padding: 0 0 0 2em; color: white;}
+ 
+        .comienza {color: white; text-align: center; position: absolute; margin-top: 200px; right: 0; left: 0;}
+
+		.boton1 {background-color: #337ab7; width: 150px; height: 40px; position: absolute; top: 300px; border-radius: 5px; color: white; text-align: center; left: 505px}
+
+		.boton1 p {margin-top: 10px}
+
+		.boton2 {background-color: #5cb85c; width: 100px; height: 40px; position: absolute; top: 300px; border-radius: 5px; color: white; text-align: center; right: 505px}
+
+		.boton2 p {margin-top: 10px}
+
+		.texto {color: white; text-align: center; position: absolute; max-width: 900px; bottom: 50px}
+
+		/*Bootcamp*/
+
+		.bootcamp {text-align: center; padding-top: 70px;}
+		.personas {width: 400px; padding-top: 30px}
+		
+		/*Información*/
+
+		.info {text-align: center; padding: 70px 0; margin: 0 auto; background-color: #fafafa; border-top: 2px solid silver; border-bottom: 2px solid silver;}
+		
+		.boton3 {background-color: #337ab7; width: 100px; height: 40px; margin: 0 auto; border-radius: 5px; color: white; text-align: center; right: 505px}
+
+		.boton3 p {padding-top: 10px}
+
+
+		/*Contacto*/
+		.contacto{padding: 70px 0; overflow: hidden;}
+		.contacto1 {float: left;}
+		.suscribete {float: left;}
+
+		/*footer*/
+		.footer {background-color: #222222; color: white; padding: 20px 0; clear: both; margin-top: 70px;}
+
+
+
+
+
+	</style>
+
+</head>
+<body>
+	<section class="header">
+		<div class="container">
+				<img class="logo" src="images/latam_logo.png" alt="logo">
+				<nav class="navbar">
+					<ul>
+						<li>Equipo</li>
+						<li>Blog</li>
+						<li>Contacto</li>
+					</ul>
+				</nav>
+				<h1 class="comienza">COMIENZA UNA NUEVA VIDA Y<br> ÚNETE AL MUNDO TECNOLÓGICO</h1>
+				<div class="boton1">
+					<p>Comienza acá!</p>
+				</div>
+				<div class="boton2">
+					<p>Más Info</p>
+				</div>
+				<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic libero impedit, quibusdam? Nobis repudiandae unde nostrum autem nesciunt architecto, nisi recusandae, debitis et animi odit expedita dolor minima enim dignissimos.</p>
+		</div>
+	</section>
+
+	<section class="bootcamp container">
+		<h2>EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINOAMÉRICA</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sed rem, voluptas fugiat incidunt corporis et. Voluptas quo doloremque maiores placeat natus aut rerum neque possimus iure tempore. Debitis, laboriosam!</p>
+		<img class="personas" src="images/viewing-gallery-for-happy-people.png" alt="personas">
+	</section>
+
+
+	<section class="info">
+		<h2>SOLICITA INFORMACIÓN E INSCRÍBETE</h2>
+		<p class="container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sed rem, voluptas fugiat incidunt corporis et. Voluptas quo doloremque maiores placeat natus aut rerum neque possimus iure tempore. Debitis, laboriosam!</p>
+		<div class="boton3">
+			<p>Inscríbete</p>
+		</div>
+		<p>Vive la experiencia Desafío Latam!</p>
+	</section>
+
+	<section class="contacto container">
+		<div class="contacto1">
+			<h3>Contacto</h3>
+			<p><strong>Desafío Latam</strong><br>Ezequias Alliende 2361<br>P +56 9 1234 5678</p>
+			<a href="#">inscripciones@desafiolatam.com</a>
+		</div>
+
+		<div class="suscribete">
+			<h3>Suscríbete</h3>
+			<p>Lorem ipsum dolor sit amet</p>
+			<form class="formulario" action="#">
+				<input type="text" placeholder="Ingresa tu mail">
+				<input type="submit" value="Enviar"></input>
+			</form>
+		</div>
+	</section>
+
+	<section class="footer">
+		<h5 class="container">DESAFÍO LATAM 2016 - CURSO FULLSTACK G5</h5>
+	</section>
+
+</body>
+</html>
